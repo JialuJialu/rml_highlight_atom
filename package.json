@@ -2,7 +2,7 @@
   "name": "robotml_highlighter",
   "displayName": "rmlHighlight",
   "main": "./grammar/robot_ml.cson",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "This is a syntax highlighter for RML, a language used in Cornell CS 3110 ",
   "keywords": [],
   "repository": {
