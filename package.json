@@ -1,8 +1,8 @@
 {
-  "name": "my-package",
-  "main": "./lib/my-package",
+  "name": "robotml_highlighter",
+  "displayName": "rmlHighlight",
   "version": "1.0.0",
-  "description": "A short description of your package",
+  "description": "This is a syntax highlighter for RML, a language used in Cornell CS 3110 ",
   "keywords": [],
   "repository": {
     "type": "git",
