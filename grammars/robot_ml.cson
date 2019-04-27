@@ -14,11 +14,11 @@
         'name': 'storage.type.rml'
     }
     {
-        'match': '\\b(print|println|print_detail1|print_detail2|print_detail3|sleep|explode|random)\\b'
+        'match': '\\b(print|println|print_detail1|print_detail2|print_detail3|sleep|explode|random|string_of_int|SELF|SERVER)\\b'
         'name': 'support.function.rml'
     }
     {
-        'match': '\\b(true|false|SELF)\\b'
+        'match': '\\b(true|false)\\b'
         'name': 'constant.language.rml'
     }
     {
