@@ -10,6 +10,14 @@
         'name': 'keyword.control.rml'
     }
     {
+        'match': '\\b(await|spawn|join|pick|send|recv|ignore|return)\\b'
+        'name': 'storage.type.rml'
+    }
+    {
+        'match': '\\b(print|println|print_detail1|print_detail2|print_detail3|sleep|explode|random)\\b'
+        'name': 'support.function.rml'
+    }
+    {
         'match': '\\b(true|false|SELF)\\b'
         'name': 'constant.language.rml'
     }
