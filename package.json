@@ -31,7 +31,7 @@
       {
         "language": "rml",
         "scopeName": "source.rml",
-        "path": "./syntaxes/rml.tmLanguage.json"
+        "path": "./grammars/rml.tmLanguage.json"
       }
     ]
   },
