@@ -1,0 +1,41 @@
+{
+  "name": "my-package",
+  "main": "./lib/my-package",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "https://github.com/atom/my-package",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "contributes": {
+    "languages": [
+        {
+            "id": "rml",
+            "aliases": [
+                "RML",
+                "rml"
+            ],
+            "extensions": [
+                ".rml",
+                ".rmx"
+            ],
+            "configuration": "./language-configuration.json"
+        }
+    ],
+    "grammars": [
+        {
+            "language": "rml",
+            "scopeName": "source.rml",
+            "path": "./syntaxes/rml.tmLanguage.json"
+        }
+    ]
+},
+"repository": {
+    "type": "git",
+    "url": "https://github.com/JialuJialu/rml_highlight_atom"
+},
+  "dependencies": {
+  }
+}
