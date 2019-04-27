@@ -1,6 +1,7 @@
 {
   "name": "robotml_highlighter",
   "displayName": "rmlHighlight",
+  "main": "./grammars/robot_ml",
   "version": "2.0.0",
   "description": "This is a syntax highlighter for RML, a language used in Cornell CS 3110 ",
   "keywords": [],
@@ -11,29 +12,6 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  },
-  "contributes": {
-    "languages": [
-      {
-        "id": "rml",
-        "aliases": [
-          "RML",
-          "rml"
-        ],
-        "extensions": [
-          ".rml",
-          ".rmx"
-        ],
-        "configuration": "./language-configuration.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "rml",
-        "scopeName": "source.rml",
-        "path": "./grammars/rml.tmLanguage.json"
-      }
-    ]
   },
   "dependencies": {}
 }
